@@ -16,4 +16,18 @@ tasks:
   publish:
     desc: Build and publish the VS Code extension
     cmds:
-      - npm run publish
+      - task: build
+      - task: publish:marketplace
+      - task: publish:openvsx
+
+  publish:marketplace:
+    desc: Publish to the Visual Studio Marketplace
+    prompt: Publish to the Visual Studio Marketplace?
+    cmds:
+      - npm run publish:marketplace
+
+  publish:openvsx:
+    desc: Publish to Open VSX
+    prompt: Publish to Open VSX?
+    cmds:
+      - npm run publish:openvsx

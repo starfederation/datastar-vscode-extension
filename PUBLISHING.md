@@ -18,3 +18,10 @@ To publish to the Visual Studio Marketplace and Open VSX, set `VSCE_PAT` and `OV
 ```sh
 task publish
 ```
+
+To publish to a single marketplace:
+
+```sh
+task publish:marketplace
+task publish:openvsx
+```

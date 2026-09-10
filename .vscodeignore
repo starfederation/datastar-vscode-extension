@@ -1,0 +1,12 @@
+.gitignore
+*.vsix
+node_modules/**
+package-lock.json
+PUBLISHING.md
+generate-language-data.ts
+src/data-attributes.json
+src/language-data.json
+src/*.ts
+test/**
+test.html
+tsconfig.json

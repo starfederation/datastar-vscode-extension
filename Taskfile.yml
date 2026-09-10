@@ -1,0 +1,19 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  generate:
+    desc: Generate the language data
+    cmds:
+      - npm run generate
+
+  build:
+    desc: Build the VS Code extension
+    cmds:
+      - npm run build
+
+  publish:
+    desc: Build and publish the VS Code extension
+    cmds:
+      - npm run publish

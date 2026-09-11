@@ -2,8 +2,6 @@
 
 Adds context-aware autocomplete, diagnostics, hover documentation, and syntax highlighting for [Datastar](https://data-star.dev/) to Visual Studio Code.
 
-The extension provides:
-
 - Datastar attribute, modifier, and native event completion
 - Datastar action completion and signature help
 - Attribute key and value validation
